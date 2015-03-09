@@ -23,7 +23,7 @@ public class IPLocationFinder
 			GeoIPService ipService = new GeoIPService();
 			GeoIPServiceSoap geoIPServiceSoap = ipService.getGeoIPServiceSoap();
 			GeoIP geoIP = geoIPServiceSoap.getGeoIP(ipAddress);
-			System.out.println(geoIP.getCountryName());
+			System.out.println(geoIP.getCountryName()); 
 			
 		}
 	
