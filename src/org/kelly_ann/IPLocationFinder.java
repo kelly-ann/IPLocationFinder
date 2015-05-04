@@ -14,7 +14,7 @@ public class IPLocationFinder
 		}
 		else
 		{
-			// http://www.webservicex.net/geoipservice.asmx?WSDL
+			// WSDL Endpoint URL: http://www.webservicex.net/geoipservice.asmx?WSDL
 			// GeoIPService is in the <wsdl:service> in the wsdl's XML.
 			// GeoIPServiceSoap is in the <wsdl:port> within the <wsdl:service> XML tags in the wsdl.
 			// GeoIP is the actual IP object with the information about the IP.
